@@ -76,7 +76,3 @@ Use hooks to add functionality
 
 # Notes
 - Do not use npm, the wagmi cli is broken with npm. Use pnpm.
-
-# TODO
-- Re do whole process using pnpm from scratch and revise
-- Do frontend app
