@@ -1,4 +1,13 @@
-# Steps
+# Fullstack web3 demo
+
+This was made for a workshop in the King of Devs 2.0 Hackathon.
+
+A video version of going through the setup and the code step by step can be found here
+[![Video](https://img.youtube.com/vi/fhLlgfIrElI/maxresdefault.jpg)](https://www.youtube.com/live/fhLlgfIrElI?feature=share&t=13712)
+
+# Setup Steps
+
+> At the time of building this npm was broken with the wagmi cli so I used pnpm. Now I've submitted a PR that solved that so feel free to use npm
 
 ## Create Hardhat project
 
@@ -11,7 +20,6 @@ $ pnpm hardhat
   > Select typescript
   > Install dependencies
 ```
-
 
 ## Write Contract
 
@@ -71,8 +79,3 @@ In `src/pages/app.tsx` add chain config, client and wrap the app in a Wagmi Clie
 
 Go to `src/pages/index.tsx` and delete the page content.
 Add the code to connect to the wallet
-
-Use hooks to add functionality
-
-# Notes
-- Do not use npm, the wagmi cli is broken with npm. Use pnpm.
