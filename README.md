@@ -5,6 +5,11 @@ This was made for a workshop in the King of Devs 2.0 Hackathon.
 A video version of going through the setup and the code step by step can be found here
 [![Video](https://img.youtube.com/vi/fhLlgfIrElI/maxresdefault.jpg)](https://www.youtube.com/live/fhLlgfIrElI?feature=share&t=13712)
 
+# Final Result
+A simple app that allows you to login with your browser wallet and interact with a simple Storage.sol contract.
+
+![image](https://github.com/Eyon42/KoD-Fullstack-Demo/raw/main/Screenshot%202023-04-18%20at%2022.05.01.png)
+
 # Setup Steps
 
 > At the time of building this npm was broken with the wagmi cli so I used pnpm. Now I've submitted a PR that solved that so feel free to use npm
