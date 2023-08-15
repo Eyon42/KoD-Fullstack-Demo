@@ -87,3 +87,16 @@ In `src/pages/app.tsx` add chain config, client and wrap the app in a Wagmi Clie
 
 Go to `src/pages/index.tsx` and delete the page content.
 Add the code to connect to the wallet
+
+# How to use this as a template
+
+- Clone this and name it as you want
+- cd into contracts
+  - run `pnpm install`
+  - run `pnpm hardhat compile`
+  - run `pnpm hardhat node` and leave it running
+  - run `pnpm hardhat run scripts/deploy.ts --network localhost`
+- cd into frontend
+  - run `pnpm install`
+  - run `pnpm wagmi generate`
+  - run `pnpm dev`
